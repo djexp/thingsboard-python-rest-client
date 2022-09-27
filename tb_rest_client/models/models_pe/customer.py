@@ -309,8 +309,8 @@ from tb_rest_client.api_client import ApiClient
         :param country: The country of this Customer.  # noqa: E501
         :type: str
         """
-        if country is None:
-            raise ValueError("Invalid value for `country`, must not be `None`")  # noqa: E501
+        # if country is None:
+        #    raise ValueError("Invalid value for `country`, must not be `None`")  # noqa: E501
 
         self._country = country
 
@@ -334,8 +334,8 @@ from tb_rest_client.api_client import ApiClient
         :param state: The state of this Customer.  # noqa: E501
         :type: str
         """
-        if state is None:
-            raise ValueError("Invalid value for `state`, must not be `None`")  # noqa: E501
+        #if state is None:
+        #    raise ValueError("Invalid value for `state`, must not be `None`")  # noqa: E501
 
         self._state = state
 
@@ -359,8 +359,8 @@ from tb_rest_client.api_client import ApiClient
         :param city: The city of this Customer.  # noqa: E501
         :type: str
         """
-        if city is None:
-            raise ValueError("Invalid value for `city`, must not be `None`")  # noqa: E501
+        #if city is None:
+        #    raise ValueError("Invalid value for `city`, must not be `None`")  # noqa: E501
 
         self._city = city
 
@@ -384,8 +384,8 @@ from tb_rest_client.api_client import ApiClient
         :param address: The address of this Customer.  # noqa: E501
         :type: str
         """
-        if address is None:
-            raise ValueError("Invalid value for `address`, must not be `None`")  # noqa: E501
+        #if address is None:
+        #    raise ValueError("Invalid value for `address`, must not be `None`")  # noqa: E501
 
         self._address = address
 
@@ -409,8 +409,8 @@ from tb_rest_client.api_client import ApiClient
         :param address2: The address2 of this Customer.  # noqa: E501
         :type: str
         """
-        if address2 is None:
-            raise ValueError("Invalid value for `address2`, must not be `None`")  # noqa: E501
+        #if address2 is None:
+        #    raise ValueError("Invalid value for `address2`, must not be `None`")  # noqa: E501
 
         self._address2 = address2
 
@@ -434,8 +434,8 @@ from tb_rest_client.api_client import ApiClient
         :param zip: The zip of this Customer.  # noqa: E501
         :type: str
         """
-        if zip is None:
-            raise ValueError("Invalid value for `zip`, must not be `None`")  # noqa: E501
+        #if zip is None:
+        #    raise ValueError("Invalid value for `zip`, must not be `None`")  # noqa: E501
 
         self._zip = zip
 
@@ -459,8 +459,8 @@ from tb_rest_client.api_client import ApiClient
         :param phone: The phone of this Customer.  # noqa: E501
         :type: str
         """
-        if phone is None:
-            raise ValueError("Invalid value for `phone`, must not be `None`")  # noqa: E501
+        #if phone is None:
+        #    raise ValueError("Invalid value for `phone`, must not be `None`")  # noqa: E501
 
         self._phone = phone
 
@@ -484,8 +484,8 @@ from tb_rest_client.api_client import ApiClient
         :param email: The email of this Customer.  # noqa: E501
         :type: str
         """
-        if email is None:
-            raise ValueError("Invalid value for `email`, must not be `None`")  # noqa: E501
+        #if email is None:
+        #    raise ValueError("Invalid value for `email`, must not be `None`")  # noqa: E501
 
         self._email = email
 
